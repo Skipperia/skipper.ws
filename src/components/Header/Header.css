@@ -19,17 +19,15 @@
     gap: 10px;  
 }
 
-#aboutButton {
-    padding: 10px 20px;
-    background-color: white;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.options-bar{
+    display: flex;
+    padding-top: 3%;
+    padding-left: 30%;
 }
 
-#aboutButton:hover {
-    background-color: grey;
+
+#about-text:hover {
+    color: grey;
     cursor: pointer;
 }
 

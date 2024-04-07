@@ -7,11 +7,11 @@ const Header: React.FC = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-      const redirectPath = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      if (redirectPath) {
-        navigate(redirectPath);
-      }
+        const redirectPath = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirectPath) {
+            navigate(redirectPath);
+        }
     }, [navigate]);
 
     const navigateToAbout = () => {
@@ -22,10 +22,18 @@ const Header: React.FC = () => {
         navigate('/');
     }
 
+    const openGitHub = () => {
+        window.open('https://github.com/Skipperia', '_blank');
+    };
+
     return (<div className='App-header'>
         <div className='left-content'>
             <h2 id='site-title' onClick={navigateToHome}>skipper.ws</h2>
-            <button id='aboutButton' onClick={navigateToAbout}>whoami</button>
+            <div className='options-bar'>
+                <button id='about-text' onClick={navigateToAbout}>whoami</button>
+                <button id='about-text' onClick={openGitHub}> github</button>
+            </div>
+
         </div>
         <div className='right-content'>
             <p id='dntknow'>don't know css</p>
