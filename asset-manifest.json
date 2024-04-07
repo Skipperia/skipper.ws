@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/skipper.ws/static/css/main.5e242523.css",
+    "main.js": "/skipper.ws/static/js/main.4e9ba171.js",
+    "static/js/453.419a5d54.chunk.js": "/skipper.ws/static/js/453.419a5d54.chunk.js",
+    "static/media/Inter-italic.var.woff2?v=3.19": "/skipper.ws/static/media/Inter-italic.var.30807be7abc48ba8c73c.woff2",
+    "static/media/Inter-roman.var.woff2?v=3.19": "/skipper.ws/static/media/Inter-roman.var.ba4caefcdf5b36b438db.woff2",
+    "index.html": "/skipper.ws/index.html",
+    "main.5e242523.css.map": "/skipper.ws/static/css/main.5e242523.css.map",
+    "main.4e9ba171.js.map": "/skipper.ws/static/js/main.4e9ba171.js.map",
+    "453.419a5d54.chunk.js.map": "/skipper.ws/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e242523.css",
+    "static/js/main.4e9ba171.js"
+  ]
+}
