@@ -1,0 +1,48 @@
+.CoolPageTitle {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.CoolPageTitle:hover {
+    color: blueviolet
+}
+
+.card {
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-width: 600px; /* Minimum width of the card */
+    max-width: 80%; /* Maximum width of the card as a percentage of its container */
+    min-height: 300px; /* Minimum height of the card */
+    height: auto; /* Height of the card to grow with the content */
+    margin: 40px auto; /* Centering the card */
+    padding: 20px;
+    transition: width 0.2s, height 0.2s; /* Smooth resizing transition */
+    height: 500px; /* Set a specific height */
+    overflow: auto; /* Add scroll inside the card if content is too tall */
+  }
+  
+  .card-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px; /* Spacing between header and content */
+  }
+  
+  .card-content {
+    font-size: 1em;
+    line-height: 1.6; /* For better readability */
+    color: #333; /* Slightly darker text for better contrast */
+  }
+  
+  
+  
+
+
+#page-title-wrapper {
+    text-align: center;
+    /* Center the title and button */
+    padding: 20px;
+    /* Padding around the wrapper */
+}

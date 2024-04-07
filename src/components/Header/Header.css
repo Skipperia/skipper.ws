@@ -1,0 +1,43 @@
+.App-header {
+    background-color: #282c34;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0 20px;
+}
+
+.App-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.left-content, .right-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+}
+
+#aboutButton {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#aboutButton:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+#site-title:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+#dntknow {
+    font-size: xx-small;
+}
