@@ -1,7 +1,11 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Toolbar } from 'primereact/toolbar';
+import { Avatar } from 'primereact/avatar';
+import myImage from '../../assets/image.png';
 
 import './Header.css';
+import { Button } from 'primereact/button';
 
 const Header: React.FC = () => {
     const navigate = useNavigate();
@@ -26,20 +30,40 @@ const Header: React.FC = () => {
         window.open('https://github.com/Skipperia', '_blank');
     };
 
-    return (<div className='App-header'>
-        <div className='left-content'>
-            <h2 id='site-title' onClick={navigateToHome}>skipper.ws</h2>
-            <div className='options-bar'>
-                <button id='about-text' onClick={navigateToAbout}>whoami</button>
-                <button id='about-text' onClick={openGitHub}> github</button>
-            </div>
+    const startContent = (
+        <React.Fragment>
+        </React.Fragment >
+    );
 
+    const centerContent = (
+        <div className="flex flex-wrap align-items-center gap-3">
+            {/* <button className="p-link inline-flex justify-content-center align-items-center text-white h-3rem w-3rem border-circle hover:bg-white-alpha-10 transition-all transition-duration-200">
+                <i className="pi pi-home text-2xl"></i>
+            </button>
+            <button className="p-link inline-flex justify-content-center align-items-center text-white h-3rem w-3rem border-circle hover:bg-white-alpha-10 transition-all transition-duration-200">
+                <i className="pi pi-user text-2xl"></i>
+            </button>
+            <button className="p-link inline-flex justify-content-center align-items-center text-white h-3rem w-3rem border-circle hover:bg-white-alpha-10 transition-all transition-duration-200">
+                <i className="pi pi-search text-2xl"></i>
+            </button> */}
+            <Button id="home-button" icon='pi pi-home' outlined text label='Home' />
         </div>
-        <div className='right-content'>
-            <p id='dntknow'>don't know css</p>
-            <p id='dntknow'>pls forgive</p>
+    );
+
+    const endContent = (
+        <React.Fragment>
+            <div className="flex align-items-center gap-2">
+                <Avatar image={myImage} shape="square" />
+            </div>
+        </React.Fragment>
+    );
+
+    return (
+        <div className='toolbar-container'>
+            <div className='inner-toolbar-container'>
+                <Toolbar start={startContent} center={centerContent} end={endContent} className="bg-gray-900 shadow-2" style={{ borderRadius: '3rem', backgroundImage: 'linear-gradient(to right, var(--bluegray-500), var(--bluegray-800))' }} />
+            </div>
         </div>
-    </div>
     );
 }
 

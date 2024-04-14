@@ -1,41 +1,8 @@
-.App-header {
-    background-color: #282c34;
-    min-height: 60px;
+.toolbar-container{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    padding: 0 20px;
+    justify-content: center;
 }
 
-.App-header h1 {
-    margin: 0;
-    font-size: 1.5rem;
-}
-
-.left-content, .right-content {
-    display: flex;
-    align-items: center;
-    gap: 10px;  
-}
-
-.options-bar{
-    display: flex;
-    padding-top: 3%;
-    padding-left: 30%;
-}
-
-
-#about-text:hover {
-    color: grey;
-    cursor: pointer;
-}
-
-#site-title:hover {
-    color: grey;
-    cursor: pointer;
-}
-
-#dntknow {
-    font-size: xx-small;
+.inner-toolbar-container{
+    width: 80vw;
 }
