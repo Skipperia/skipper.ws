@@ -1,8 +1,35 @@
-.toolbar-container{
+.toolbar-container {
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 
-.inner-toolbar-container{
+.inner-toolbar-container {
     width: 80vw;
+    display: flex;
+    align-items: center; 
+}
+
+#img-title {
+    width: 25%;
+    height: 25%;
+}
+#img-title::hover:focus{
+    cursor: pointer;
+}
+
+.inner-left-toolbar-container,
+.inner-right-toolbar-container {
+    display: flex;
+    align-items: center; 
+    flex: 1; 
+}
+
+.inner-left-toolbar-container {
+    justify-content: flex-start; 
+}
+
+.inner-right-toolbar-container {
+    justify-content: flex-end; 
+    gap: 15px;
 }

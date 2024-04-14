@@ -7,3 +7,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --background-color:   #333333; /* light background */
+  --text-color: #ffffff; /* light text */
+}
+
+.light-theme {
+
+  --background-color: #ffffff;
+  --text-color: #000000
+
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.no-style-link {
+  color: inherit; /* Inherits the color from the parent element */
+  text-decoration: none; /* Removes underline */
+}
+
+.no-style-link:hover,
+.no-style-link:focus {
+  text-decoration: underline; /* Optional: Adds underline on hover/focus for better user experience */
+  cursor: pointer;
+}
