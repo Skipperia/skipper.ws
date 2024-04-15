@@ -5,9 +5,9 @@
     padding: 10px 0;
 }
 
-.CoolPageTitle:hover {
+/* .CoolPageTitle:hover {
     color: blueviolet
-}
+} */
 
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -16,8 +16,9 @@
     max-width: 80%; /* Maximum width of the card as a percentage of its container */
     min-height: 300px; /* Minimum height of the card */
     height: auto; /* Height of the card to grow with the content */
-    margin: 40px auto; /* Centering the card */
-    padding: 20px;
+    margin: 50px auto; /* Centering the card */
+    padding-top: 5px;
+    padding-left: 15px;
     transition: width 0.2s, height 0.2s; /* Smooth resizing transition */
     height: 500px; /* Set a specific height */
     overflow: auto; /* Add scroll inside the card if content is too tall */
@@ -32,7 +33,6 @@
   .card-content {
     font-size: 1em;
     line-height: 1.6; /* For better readability */
-    color: #333; /* Slightly darker text for better contrast */
   }
   
   

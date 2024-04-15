@@ -4,7 +4,7 @@ import '../styles/pagecontent.css';
 
 interface PageContentProps {
     pageTitle: string,
-    pageContent: string
+    pageContent?: string
 }
 const PageContent = (props: PageContentProps) => {
     const content = props.pageContent;

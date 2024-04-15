@@ -6,6 +6,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   const reactConfig = {
@@ -24,6 +25,7 @@ const App = () => {
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </HashRouter>
+        <Footer />
       </PrimeReactProvider>
     </div>
   );

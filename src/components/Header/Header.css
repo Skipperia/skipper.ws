@@ -14,7 +14,7 @@
     width: 25%;
     height: 25%;
 }
-#img-title::hover:focus{
+#img-title:hover{
     cursor: pointer;
 }
 
@@ -31,5 +31,5 @@
 
 .inner-right-toolbar-container {
     justify-content: flex-end; 
-    gap: 15px;
+    gap: 25px;
 }

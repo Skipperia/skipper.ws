@@ -1,0 +1,11 @@
+.footer-col-wrapper {
+    display: flex; /* This makes the footer use Flexbox */
+    justify-content: space-between; /* This distributes space evenly between the columns */
+    align-items: center; /* This aligns the items vertically in the center */
+    text-align: center; /* This centers the text inside the columns */
+}
+
+.footer-col {
+    flex: 1; /* This allows each column to take up an equal amount of space */
+    padding: 30px; /* Optional: Adds some padding inside each column */
+}

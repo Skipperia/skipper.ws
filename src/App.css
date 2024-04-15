@@ -9,8 +9,8 @@
 }
 
 :root {
-  --background-color:   #333333; /* light background */
-  --text-color: #ffffff; /* light text */
+  --background-color: black; /* light background */
+  --text-color: lightgray; /* light text */
 }
 
 .light-theme {
@@ -21,6 +21,11 @@
 }
 
 body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.project-card{
   background-color: var(--background-color);
   color: var(--text-color);
 }

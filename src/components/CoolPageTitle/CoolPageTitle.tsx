@@ -1,6 +1,5 @@
 import React from "react";
 import '../styles/pagecontent.css';
-import { title } from "process";
 
 interface CoolPageTitleProps {
     title: string
