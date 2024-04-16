@@ -1,0 +1,7 @@
+.cards-container{
+    display: flex;
+}
+
+.project-card{
+    padding: 10px
+}
